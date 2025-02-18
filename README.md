@@ -32,8 +32,7 @@ python app.py
 <br>
 <br>
 
-## License
-MIT License
+
 <br>
 <br>
 
