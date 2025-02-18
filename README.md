@@ -1,100 +1,40 @@
-AI House Price Predictor
+# House-price-prediction-using-flask
+This project demonstrates the predictive capabilities of a model trained on house price data using Linear Regression. The model is deployed using a Flask API, providing an interface to predict house prices based on input features.
 
-Overview
 
-The AI House Price Predictor is a web-based application that predicts house prices based on user inputs. It features an interactive chatbot-style interface for collecting user data and a Flask backend for making predictions using a machine learning model.
+## Installation
 
-Features
+You'll need to install the required libraries to run this web app on your local machine. These are listed in the requirements.txt file. The project was developed using Python 3.8.0 and Flask 2.0.1.<br><br> Install the necessary packages by running the following command in your terminal:<br><br>
+```
+pip install flask
+```
+```
+pip install numpy
+```
 
-📊 Machine Learning Model: Uses Linear Regression and Random Forest to predict house prices.
+<br>
+<br>
 
-🤖 Chatbot UI: Collects user inputs through a conversational interface.
+## Getting Started
 
-🚀 Flask API Backend: Processes data and returns predictions.
-
-🎨 Particles.js Animation: Enhances UI with animated effects.
-
-Installation & Setup
-
-Step 1: Clone the Repository
-
-git clone https://github.com/your-username/AI-House-Price-Predictor.git
-cd AI-House-Price-Predictor
-
-Step 2: Create a Virtual Environment
-
-python -m venv venv
-source venv/bin/activate  # Mac/Linux
-venv\Scripts\activate  # Windows
-
-Step 3: Install Dependencies
-
-pip install -r requirements.txt
-
-Step 4: Train the Model
-
-python train_model.py
-
-This script will:
-
-Load the house price dataset.
-
-Train both Linear Regression and Random Forest models.
-
-Save the best-performing model as best_model.pkl.
-
-Step 5: Run the Flask Application
-
+After installing the required packages, you can start the application by executing the following command in your terminal:<br><br>
+```
 python app.py
+```
+<br>
+<br>
 
-The application will run on http://127.0.0.1:5500/.
+## Preview
+<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
+<br>
+<br>
+<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/prediction.png'></img>
+<br>
+<br>
 
-How It Works
+## License
+MIT License
+<br>
+<br>
 
-1️⃣ User Interaction
-
-
-
-The chatbot greets the user and asks 5 questions about house features:
-
-Number of bedrooms 🛏️
-
-Number of bathrooms 🚿
-
-Number of floors 🏠
-
-Year built 📅
-
-Square footage of living area 📐
-
-2️⃣ Backend Processing
-
-
-
-The Flask backend receives input via a /predict API endpoint.
-
-The trained model predicts the house price based on the input features.
-
-Returns the predicted price in JSON format.
-
-3️⃣ Displaying Prediction
-
-
-The chatbot displays the predicted house price in the chat interface.
-
-
-Technologies Used
-
-Python (Flask, NumPy, Scikit-learn, Pickle)
-
-JavaScript (Fetch API, Particles.js)
-
-HTML/CSS (Chatbot UI)
-
-Machine Learning (Linear Regression, Random Forest)
-
-Future Enhancements 🚀
-
-Add more advanced ML models for better accuracy.
-
-Improve UI with voice-enabled chatbot.
+### Thank you
